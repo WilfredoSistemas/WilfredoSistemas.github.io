@@ -1,0 +1,31 @@
+footer{
+    /*Añade un fondo oscuro.*/
+    /*Altura fija de 280px*/
+    background-color: #2c0f0f;
+    height: 280px;
+}
+
+footer div img{
+    /*Utiliza flexbox para alinear a la izquierda.*/
+    /*Tamaño de fuente 1.5rem.*/
+    /*Invierte los colores de las imágenes.*/
+    /*Añade un pequeño espacio alrededor de las imágenes.*/
+    display: flex;
+    align-items: left;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    width: 40px;
+    filter: invert(1);
+    padding: 1px;
+}
+
+footer a{
+    /*Utiliza flexbox para alinear a la izquierda.*/
+    /*Texto sin decoración y color blanco.*/
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
