@@ -69,11 +69,22 @@ p {
 }
 
 .logo2 {
-    /*Establece estilos específicos para un elemento con una clase, 
-    configurando el ancho, altura, relleno, entre otros.*/
-    width: 470px;  
-    height: 350px; 
+    /* Establece estilos específicos para un elemento con una clase,
+    configurando el ancho, altura, relleno, entre otros para dispositivos más grandes. */
+    width: 470px;
+    height: 350px;
     padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for mobile devices */
+
+    .logo2 {
+        /* Modifica el tamaño para dispositivos móviles */
+        width: 100%;
+        height: auto;
+        padding: 10px; /* Ajusta el relleno para dispositivos móviles si es necesario */
+    }
 }
 
 @media only screen and (max-width: 600px) {
