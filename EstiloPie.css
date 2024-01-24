@@ -29,3 +29,14 @@ footer a{
     text-align: left;
 }
 
+/* Estilo para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    footer div {
+        flex-direction: column; /* Cambia a una disposición de columna para dispositivos móviles */
+        align-items: center; /* Centra los elementos en dispositivos móviles */
+    }
+
+    footer div img {
+        margin-bottom: 10px; /* Ajusta el espacio entre las imágenes en dispositivos móviles */
+    }
+}
