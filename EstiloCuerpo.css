@@ -71,7 +71,20 @@ p {
 .logo2 {
     /*Establece estilos específicos para un elemento con una clase, 
     configurando el ancho, altura, relleno, entre otros.*/
-    width: 500px;  
+    width: 470px;  
     height: 350px; 
     padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for mobile devices */
+
+    body {
+        padding: 10px; /* Add some padding to the body for better mobile display */
+    }
+
+    iframe {
+        width: 100%; /* Make the map iframe take up the full width of the viewport */
+        height: 300px; /* Set a fixed height for better visibility on mobile devices */
+    }
 }
