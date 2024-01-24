@@ -17,12 +17,17 @@ body {
     height: 50%;  
 }
 
-#contacto {
-    /*Establece un ancho máximo de 1000px, centrando el contenido y configurando el texto como centrado.*/
-    width: 100%;     
-    max-width: 1000px;  
-    margin: 10px auto;  
-    text-align: center; 
+#contacto {   
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;     
+}
+
+@media only screen and (max-width: 600px) {
+    #contacto {
+        width: 100%;
+    }
 }
 
 p {
@@ -75,4 +80,17 @@ p {
     width: 500px;  
     height: 350px; 
     padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for mobile devices */
+
+    body {
+        padding: 10px; /* Add some padding to the body for better mobile display */
+    }
+
+    iframe {
+        width: 100%; /* Make the map iframe take up the full width of the viewport */
+        height: 300px; /* Set a fixed height for better visibility on mobile devices */
+    }
 }
