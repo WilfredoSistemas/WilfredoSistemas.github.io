@@ -55,10 +55,18 @@ p {
     /*Configura el estilo del eslogan utilizando la fuente 'Raleway' o una alternativa, 
     con estilos específicos de tamaño, color y sombra de texto.*/
     font-family: Raleway, sans-serif; 
-    font-size: 50pt;               
+    font-size: 40pt;               
     padding: 0px 0 60px 0;         
     color: rgb(255, 255, 255);      
     text-shadow: 5px 2px 0.1px black;  
+}
+
+@media only screen and (max-width: 767px) {
+    /* Ajutado para dispositivos móviles */
+    .eslogan {
+        font-size: 25pt;  
+        padding: 20px;   
+    }
 }
 
 .logo {
