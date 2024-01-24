@@ -24,12 +24,6 @@ body {
         margin: 0 auto;     
 }
 
-@media only screen and (max-width: 600px) {
-    #contacto {
-        width: 100%;
-    }
-}
-
 p {
     /*Configura el estilo de los párrafos dentro de la página, utilizando la fuente 'Times New Roman' o una alternativa,
     con sombra de texto y otros estilos específicos.*/
@@ -80,17 +74,4 @@ p {
     width: 500px;  
     height: 350px; 
     padding: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-    /* Adjust styles for mobile devices */
-
-    body {
-        padding: 10px; /* Add some padding to the body for better mobile display */
-    }
-
-    iframe {
-        width: 100%; /* Make the map iframe take up the full width of the viewport */
-        height: 300px; /* Set a fixed height for better visibility on mobile devices */
-    }
 }
