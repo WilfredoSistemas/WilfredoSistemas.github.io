@@ -23,6 +23,8 @@ header{
     /*Configura el estilo del encabezado, con una altura fija, un fondo de color específico y espacio alrededor 
     de los elementos dentro del encabezado.*/
     width: 100%;
+    left: 0;
+    top: 0;
     height: 90px;
     background-color: #2c0f0f;
     display: flex;
