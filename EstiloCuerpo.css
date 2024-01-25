@@ -35,9 +35,10 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
+    /* Ajusta el relleno para dispositivos móviles*/
     p {
-        font-size: 25pt;  /* Tamaño de fuente para dispositivos móviles */
-        padding: 30px;   /* Ajusta el relleno para dispositivos móviles*/
+        font-size: 25pt; 
+        padding: 30px;   
     }
 }
 
